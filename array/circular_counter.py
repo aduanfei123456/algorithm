@@ -15,7 +15,7 @@ for a in array:
     l.append(a)
 while 1:
     print(l[counter])
-    l.remove(l[counter])
+    l.pop(counter)
     if len(l)>0:
         counter=(counter+2)%len(l)
     else:
